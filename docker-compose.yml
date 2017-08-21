@@ -1,0 +1,6 @@
+doc:
+    build: .
+    volumes:
+        - ".:/opt/"
+    ports:
+        - "8081:8081"
