@@ -10,6 +10,8 @@ RUN pip install -r /opt/requirements.txt
 COPY . /opt/
 WORKDIR /opt/
 
+RUN make clean && make html
+
 EXPOSE 8081
 
 CMD ["sphinx-serve"]
