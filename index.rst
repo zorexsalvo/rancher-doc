@@ -5,6 +5,19 @@
 
 Welcome to Container Management with Rancher's documentation!
 =============================================================
+.. figure:: http://cdn.rancher.com/wp-content/uploads/2015/02/01131102/loadbancer.png
+   :width: 400px
+
+
+Rancher is an open source software platform that enables organizations to run and manage Docker
+and Kubernetes in production. With Rancher, organizations no longer have to build a container
+services platform from scratch using a distinct set of open source technologies. Rancher supplies
+the entire software stack needed to manage containers in production.
+
+This documentation is intended to tackle the very basics of using Rancher. It will answer the questions
+like What is it? How it works? How to install/setup it? What environment to choose? Which in this case,
+we'll be using Kubernetes)
+
 
 .. toctree::
    :maxdepth: 2
