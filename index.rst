@@ -20,14 +20,14 @@ we'll be using Kubernetes)
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
 
+Requirements
+============
+.. hlist::
+   :columns: 1
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   * A  minimum of two (2) linux hosts, rancher requires separate ipaddresses for rancher agent (host) and server (manager)
+   * Docker installed on each machine
