@@ -16,12 +16,10 @@ the entire software stack needed to manage containers in production.
 
 This documentation is intended to tackle the very basics of using Rancher. It will answer the questions
 like What is it? How it works? How to install/setup it? What environment to choose? Which in this case,
-we'll be using Kubernetes)
+we'll be using Kubernetes.
 
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Contents:
+We will be tackling also some basic terminologies used in both Docker and Kubernetes here in this
+documentation.
 
 
 Requirements
@@ -29,5 +27,10 @@ Requirements
 .. hlist::
    :columns: 1
 
-   * A  minimum of two (2) linux hosts, rancher requires separate ipaddresses for rancher agent (host) and server (manager)
-   * Docker installed on each machine
+   * a minimum of two (2) linux servers, rancher requires separate ipaddresses for rancher agent (host) and server (manager)
+   * servers can be composed of combination of vps, virtual machines, and/or baremetal server
+   * docker installed on each machine
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Contents:
