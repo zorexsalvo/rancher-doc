@@ -24,3 +24,14 @@ This will take a while specially if you haven't pull the rancher/server image ye
 The code above lets you run the rancher-server container which will trigger initialization
 setups (usually it takes about 5 minutes) and the other one will tail the logs of
 the container to monitor if it initializes properly.
+
+.. figure:: img/rancher-server-logs.gif
+   :alt: rancher-server-logs
+
+After the initialization process, you can now access the rancher-server by accessing
+http://localhost:8080 on your browser. Here's what it will look like:
+
+.. figure:: img/welcome.png
+   :alt: rancher server welcome
+
+Once you see this page, that's it! You already finished the Rancher Server setup!
