@@ -10,7 +10,9 @@ RUN pip install -r /opt/requirements.txt
 COPY . /opt/
 WORKDIR /opt/
 
-RUN make clean && make html
+RUN make clean && \
+    make html && \
+    sphinx-build -b pdf . build/pdf
 
 EXPOSE 8081
 

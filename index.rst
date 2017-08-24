@@ -32,7 +32,13 @@ Requirements
    * docker installed on each machine
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    setup
+   environment
+
+Read it offline
+==========
+You can also download the full documentation here:
+:download:`Download PDF Version <build/pdf/rancherdocs.pdf>`
