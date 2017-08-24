@@ -41,4 +41,4 @@ Requirements
 Read it offline
 ==========
 You can also download the full documentation here:
-:download:`Download PDF Version <build/pdf/rancherdocs.pdf>`
+:download:`Download PDF Version </build/pdf/rancherdocs.pdf>`
