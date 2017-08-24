@@ -28,7 +28,7 @@ the container to monitor if it initializes properly.
 .. figure:: img/rancher-server-logs.gif
    :alt: rancher-server-logs
 
-After the initialization process, you can now access the rancher-server by accessing
+After the initialization process, you can now access the rancher-server by typing-in
 http://localhost:8080 on your browser. Here's what it will look like:
 
 .. figure:: img/welcome.png
